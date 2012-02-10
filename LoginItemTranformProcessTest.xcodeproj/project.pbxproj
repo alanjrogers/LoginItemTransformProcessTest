@@ -21,14 +21,15 @@
 		F634561D14E4D27D00DDA70C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F634561E14E4D27D00DDA70C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F634561F14E4D27D00DDA70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F634562214E4D27D00DDA70C /* LoginItemTranformProcessTest-Info.plist */ = {isa = PBXFileReference; path = "LoginItemTranformProcessTest-Info.plist"; sourceTree = "<group>"; };
+		F634562214E4D27D00DDA70C /* LoginItemTranformProcessTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginItemTranformProcessTest-Info.plist"; sourceTree = "<group>"; };
 		F634562414E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F634562614E4D27D00DDA70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F634562814E4D27D00DDA70C /* LoginItemTranformProcessTest-Prefix.pch */ = {isa = PBXFileReference; path = "LoginItemTranformProcessTest-Prefix.pch"; sourceTree = "<group>"; };
+		F634562814E4D27D00DDA70C /* LoginItemTranformProcessTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginItemTranformProcessTest-Prefix.pch"; sourceTree = "<group>"; };
 		F634562A14E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F634562C14E4D27D00DDA70C /* TSTAppDelegate.h */ = {isa = PBXFileReference; path = TSTAppDelegate.h; sourceTree = "<group>"; };
+		F634562C14E4D27D00DDA70C /* TSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTAppDelegate.h; sourceTree = "<group>"; };
 		F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTAppDelegate.m; sourceTree = "<group>"; };
 		F634563014E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F634563714E4D49700DDA70C /* LoginItemTranformProcessTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoginItemTranformProcessTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		F634562014E4D27D00DDA70C /* LoginItemTranformProcessTest */ = {
 			isa = PBXGroup;
 			children = (
+				F634563714E4D49700DDA70C /* LoginItemTranformProcessTest.entitlements */,
 				F634562C14E4D27D00DDA70C /* TSTAppDelegate.h */,
 				F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */,
 				F634562F14E4D27D00DDA70C /* MainMenu.xib */,
@@ -251,6 +253,8 @@
 		F634563514E4D27D00DDA70C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LoginItemTranformProcessTest/LoginItemTranformProcessTest.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Prefix.pch";
 				INFOPLIST_FILE = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Info.plist";
@@ -262,6 +266,8 @@
 		F634563614E4D27D00DDA70C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = LoginItemTranformProcessTest/LoginItemTranformProcessTest.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Prefix.pch";
 				INFOPLIST_FILE = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Info.plist";

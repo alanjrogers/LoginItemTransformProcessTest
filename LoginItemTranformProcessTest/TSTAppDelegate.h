@@ -11,5 +11,10 @@
 @interface TSTAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSMenu *menu;
+
+- (IBAction)showWindow:(id)sender;
+- (IBAction)showHideDockIcon:(id)sender;
+
 
 @end
