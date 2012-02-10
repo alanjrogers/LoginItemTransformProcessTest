@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F634561B14E4D27D00DDA70C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F634561A14E4D27D00DDA70C /* Cocoa.framework */; };
+		F634562514E4D27D00DDA70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F634562314E4D27D00DDA70C /* InfoPlist.strings */; };
+		F634562714E4D27D00DDA70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F634562614E4D27D00DDA70C /* main.m */; };
+		F634562B14E4D27D00DDA70C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F634562914E4D27D00DDA70C /* Credits.rtf */; };
+		F634562E14E4D27D00DDA70C /* TSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */; };
+		F634563114E4D27D00DDA70C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F634562F14E4D27D00DDA70C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F634561614E4D27D00DDA70C /* LoginItemTranformProcessTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginItemTranformProcessTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634561A14E4D27D00DDA70C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F634561D14E4D27D00DDA70C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F634561E14E4D27D00DDA70C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F634561F14E4D27D00DDA70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F634562214E4D27D00DDA70C /* LoginItemTranformProcessTest-Info.plist */ = {isa = PBXFileReference; path = "LoginItemTranformProcessTest-Info.plist"; sourceTree = "<group>"; };
+		F634562414E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F634562614E4D27D00DDA70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F634562814E4D27D00DDA70C /* LoginItemTranformProcessTest-Prefix.pch */ = {isa = PBXFileReference; path = "LoginItemTranformProcessTest-Prefix.pch"; sourceTree = "<group>"; };
+		F634562A14E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F634562C14E4D27D00DDA70C /* TSTAppDelegate.h */ = {isa = PBXFileReference; path = TSTAppDelegate.h; sourceTree = "<group>"; };
+		F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTAppDelegate.m; sourceTree = "<group>"; };
+		F634563014E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F634561314E4D27D00DDA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634561B14E4D27D00DDA70C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F634560B14E4D27C00DDA70C = {
+			isa = PBXGroup;
+			children = (
+				F634562014E4D27D00DDA70C /* LoginItemTranformProcessTest */,
+				F634561914E4D27D00DDA70C /* Frameworks */,
+				F634561714E4D27D00DDA70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F634561714E4D27D00DDA70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F634561614E4D27D00DDA70C /* LoginItemTranformProcessTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F634561914E4D27D00DDA70C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F634561A14E4D27D00DDA70C /* Cocoa.framework */,
+				F634561C14E4D27D00DDA70C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F634561C14E4D27D00DDA70C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F634561D14E4D27D00DDA70C /* AppKit.framework */,
+				F634561E14E4D27D00DDA70C /* CoreData.framework */,
+				F634561F14E4D27D00DDA70C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F634562014E4D27D00DDA70C /* LoginItemTranformProcessTest */ = {
+			isa = PBXGroup;
+			children = (
+				F634562C14E4D27D00DDA70C /* TSTAppDelegate.h */,
+				F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */,
+				F634562F14E4D27D00DDA70C /* MainMenu.xib */,
+				F634562114E4D27D00DDA70C /* Supporting Files */,
+			);
+			path = LoginItemTranformProcessTest;
+			sourceTree = "<group>";
+		};
+		F634562114E4D27D00DDA70C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F634562214E4D27D00DDA70C /* LoginItemTranformProcessTest-Info.plist */,
+				F634562314E4D27D00DDA70C /* InfoPlist.strings */,
+				F634562614E4D27D00DDA70C /* main.m */,
+				F634562814E4D27D00DDA70C /* LoginItemTranformProcessTest-Prefix.pch */,
+				F634562914E4D27D00DDA70C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F634561514E4D27D00DDA70C /* LoginItemTranformProcessTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F634563414E4D27D00DDA70C /* Build configuration list for PBXNativeTarget "LoginItemTranformProcessTest" */;
+			buildPhases = (
+				F634561214E4D27D00DDA70C /* Sources */,
+				F634561314E4D27D00DDA70C /* Frameworks */,
+				F634561414E4D27D00DDA70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginItemTranformProcessTest;
+			productName = LoginItemTranformProcessTest;
+			productReference = F634561614E4D27D00DDA70C /* LoginItemTranformProcessTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F634560D14E4D27C00DDA70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TST;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F634561014E4D27C00DDA70C /* Build configuration list for PBXProject "LoginItemTranformProcessTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F634560B14E4D27C00DDA70C;
+			productRefGroup = F634561714E4D27D00DDA70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F634561514E4D27D00DDA70C /* LoginItemTranformProcessTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F634561414E4D27D00DDA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634562514E4D27D00DDA70C /* InfoPlist.strings in Resources */,
+				F634562B14E4D27D00DDA70C /* Credits.rtf in Resources */,
+				F634563114E4D27D00DDA70C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F634561214E4D27D00DDA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F634562714E4D27D00DDA70C /* main.m in Sources */,
+				F634562E14E4D27D00DDA70C /* TSTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F634562314E4D27D00DDA70C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F634562414E4D27D00DDA70C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F634562914E4D27D00DDA70C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F634562A14E4D27D00DDA70C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F634562F14E4D27D00DDA70C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F634563014E4D27D00DDA70C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F634563214E4D27D00DDA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F634563314E4D27D00DDA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F634563514E4D27D00DDA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Prefix.pch";
+				INFOPLIST_FILE = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F634563614E4D27D00DDA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Prefix.pch";
+				INFOPLIST_FILE = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F634561014E4D27C00DDA70C /* Build configuration list for PBXProject "LoginItemTranformProcessTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634563214E4D27D00DDA70C /* Debug */,
+				F634563314E4D27D00DDA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F634563414E4D27D00DDA70C /* Build configuration list for PBXNativeTarget "LoginItemTranformProcessTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F634563514E4D27D00DDA70C /* Debug */,
+				F634563614E4D27D00DDA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F634560D14E4D27C00DDA70C /* Project object */;
+}
