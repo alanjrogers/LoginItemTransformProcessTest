@@ -12,12 +12,8 @@
 	NSStatusItem* myStatusItem;
 }
 
-@synthesize window = _window;
-@synthesize menu;
-
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application
-	
 	
     myStatusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
     
