@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LoginItemTranformProcessTest.xcodeproj">
+      location = "self:LoginItemTransformProcessTest.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		F634561B14E4D27D00DDA70C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F634561A14E4D27D00DDA70C /* Cocoa.framework */; };
-		F634562514E4D27D00DDA70C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F634562314E4D27D00DDA70C /* InfoPlist.strings */; };
-		F634562714E4D27D00DDA70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F634562614E4D27D00DDA70C /* main.m */; };
-		F634562B14E4D27D00DDA70C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F634562914E4D27D00DDA70C /* Credits.rtf */; };
-		F634562E14E4D27D00DDA70C /* TSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */; };
-		F634563114E4D27D00DDA70C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F634562F14E4D27D00DDA70C /* MainMenu.xib */; };
+		F68E7143163915C300DE31C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F634562F14E4D27D00DDA70C /* MainMenu.xib */; };
+		F68E7144163915C600DE31C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F634562314E4D27D00DDA70C /* InfoPlist.strings */; };
+		F68E7145163915C900DE31C0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F634562914E4D27D00DDA70C /* Credits.rtf */; };
+		F6C8CF6C163916D8005FB308 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F634562614E4D27D00DDA70C /* main.m */; };
+		F6C8CF6D163916DC005FB308 /* TSTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F634561614E4D27D00DDA70C /* LoginItemTranformProcessTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginItemTranformProcessTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F634561614E4D27D00DDA70C /* LoginItemTransformProcessTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginItemTransformProcessTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F634561A14E4D27D00DDA70C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F634561D14E4D27D00DDA70C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F634561E14E4D27D00DDA70C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F634561F14E4D27D00DDA70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F634562214E4D27D00DDA70C /* LoginItemTranformProcessTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginItemTranformProcessTest-Info.plist"; sourceTree = "<group>"; };
+		F634562214E4D27D00DDA70C /* LoginItemTransformProcessTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginItemTransformProcessTest-Prefix.pch"; sourceTree = "<group>"; };
 		F634562414E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F634562614E4D27D00DDA70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F634562814E4D27D00DDA70C /* LoginItemTranformProcessTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginItemTranformProcessTest-Prefix.pch"; sourceTree = "<group>"; };
+		F634562814E4D27D00DDA70C /* LoginItemTransformProcessTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginItemTransformProcessTest-Info.plist"; sourceTree = "<group>"; };
 		F634562A14E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		F634562C14E4D27D00DDA70C /* TSTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTAppDelegate.h; sourceTree = "<group>"; };
 		F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSTAppDelegate.m; sourceTree = "<group>"; };
 		F634563014E4D27D00DDA70C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		F634563714E4D49700DDA70C /* LoginItemTranformProcessTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoginItemTranformProcessTest.entitlements; sourceTree = "<group>"; };
+		F634563714E4D49700DDA70C /* LoginItemTransformProcessTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = LoginItemTransformProcessTest.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		F634560B14E4D27C00DDA70C = {
 			isa = PBXGroup;
 			children = (
-				F634562014E4D27D00DDA70C /* LoginItemTranformProcessTest */,
+				F634562014E4D27D00DDA70C /* LoginItemTransformProcessTest */,
 				F634561914E4D27D00DDA70C /* Frameworks */,
 				F634561714E4D27D00DDA70C /* Products */,
 			);
@@ -56,7 +56,7 @@
 		F634561714E4D27D00DDA70C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F634561614E4D27D00DDA70C /* LoginItemTranformProcessTest.app */,
+				F634561614E4D27D00DDA70C /* LoginItemTransformProcessTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,25 +80,25 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		F634562014E4D27D00DDA70C /* LoginItemTranformProcessTest */ = {
+		F634562014E4D27D00DDA70C /* LoginItemTransformProcessTest */ = {
 			isa = PBXGroup;
 			children = (
-				F634563714E4D49700DDA70C /* LoginItemTranformProcessTest.entitlements */,
+				F634563714E4D49700DDA70C /* LoginItemTransformProcessTest.entitlements */,
 				F634562C14E4D27D00DDA70C /* TSTAppDelegate.h */,
 				F634562D14E4D27D00DDA70C /* TSTAppDelegate.m */,
 				F634562F14E4D27D00DDA70C /* MainMenu.xib */,
 				F634562114E4D27D00DDA70C /* Supporting Files */,
 			);
-			path = LoginItemTranformProcessTest;
+			path = LoginItemTransformProcessTest;
 			sourceTree = "<group>";
 		};
 		F634562114E4D27D00DDA70C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F634562214E4D27D00DDA70C /* LoginItemTranformProcessTest-Info.plist */,
+				F634562214E4D27D00DDA70C /* LoginItemTransformProcessTest-Prefix.pch */,
 				F634562314E4D27D00DDA70C /* InfoPlist.strings */,
 				F634562614E4D27D00DDA70C /* main.m */,
-				F634562814E4D27D00DDA70C /* LoginItemTranformProcessTest-Prefix.pch */,
+				F634562814E4D27D00DDA70C /* LoginItemTransformProcessTest-Info.plist */,
 				F634562914E4D27D00DDA70C /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -107,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F634561514E4D27D00DDA70C /* LoginItemTranformProcessTest */ = {
+		F634561514E4D27D00DDA70C /* LoginItemTransformProcessTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F634563414E4D27D00DDA70C /* Build configuration list for PBXNativeTarget "LoginItemTranformProcessTest" */;
+			buildConfigurationList = F634563414E4D27D00DDA70C /* Build configuration list for PBXNativeTarget "LoginItemTransformProcessTest" */;
 			buildPhases = (
 				F634561214E4D27D00DDA70C /* Sources */,
 				F634561314E4D27D00DDA70C /* Frameworks */,
@@ -119,9 +119,9 @@
 			);
 			dependencies = (
 			);
-			name = LoginItemTranformProcessTest;
+			name = LoginItemTransformProcessTest;
 			productName = LoginItemTranformProcessTest;
-			productReference = F634561614E4D27D00DDA70C /* LoginItemTranformProcessTest.app */;
+			productReference = F634561614E4D27D00DDA70C /* LoginItemTransformProcessTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,9 +131,9 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TST;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
-			buildConfigurationList = F634561014E4D27C00DDA70C /* Build configuration list for PBXProject "LoginItemTranformProcessTest" */;
+			buildConfigurationList = F634561014E4D27C00DDA70C /* Build configuration list for PBXProject "LoginItemTransformProcessTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F634561514E4D27D00DDA70C /* LoginItemTranformProcessTest */,
+				F634561514E4D27D00DDA70C /* LoginItemTransformProcessTest */,
 			);
 		};
 /* End PBXProject section */
@@ -155,9 +155,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F634562514E4D27D00DDA70C /* InfoPlist.strings in Resources */,
-				F634562B14E4D27D00DDA70C /* Credits.rtf in Resources */,
-				F634563114E4D27D00DDA70C /* MainMenu.xib in Resources */,
+				F68E7143163915C300DE31C0 /* MainMenu.xib in Resources */,
+				F68E7144163915C600DE31C0 /* InfoPlist.strings in Resources */,
+				F68E7145163915C900DE31C0 /* Credits.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,8 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F634562714E4D27D00DDA70C /* main.m in Sources */,
-				F634562E14E4D27D00DDA70C /* TSTAppDelegate.m in Sources */,
+				F6C8CF6D163916DC005FB308 /* TSTAppDelegate.m in Sources */,
+				F6C8CF6C163916D8005FB308 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +253,13 @@
 		F634563514E4D27D00DDA70C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = LoginItemTranformProcessTest/LoginItemTranformProcessTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = LoginItemTransformProcessTest/LoginItemTransformProcessTest.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Prefix.pch";
-				INFOPLIST_FILE = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LoginItemTransformProcessTest/LoginItemTransformProcessTest-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LoginItemTransformProcessTest/LoginItemTransformProcessTest-Info.plist";
+				PRODUCT_NAME = LoginItemTransformProcessTest;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -266,12 +267,13 @@
 		F634563614E4D27D00DDA70C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = LoginItemTranformProcessTest/LoginItemTranformProcessTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = LoginItemTransformProcessTest/LoginItemTransformProcessTest.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Prefix.pch";
-				INFOPLIST_FILE = "LoginItemTranformProcessTest/LoginItemTranformProcessTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LoginItemTransformProcessTest/LoginItemTransformProcessTest-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LoginItemTransformProcessTest/LoginItemTransformProcessTest-Info.plist";
+				PRODUCT_NAME = LoginItemTransformProcessTest;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -279,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F634561014E4D27C00DDA70C /* Build configuration list for PBXProject "LoginItemTranformProcessTest" */ = {
+		F634561014E4D27C00DDA70C /* Build configuration list for PBXProject "LoginItemTransformProcessTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F634563214E4D27D00DDA70C /* Debug */,
@@ -288,13 +290,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F634563414E4D27D00DDA70C /* Build configuration list for PBXNativeTarget "LoginItemTranformProcessTest" */ = {
+		F634563414E4D27D00DDA70C /* Build configuration list for PBXNativeTarget "LoginItemTransformProcessTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F634563514E4D27D00DDA70C /* Debug */,
 				F634563614E4D27D00DDA70C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
